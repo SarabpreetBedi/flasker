@@ -1,0 +1,18 @@
+Before You Install Flask...Watch This! Flask Fridays #1
+Flask Fridays #1
+virtual installed cmd
+ python -m venv virt
+ source virt/Scripts/activate
+export FLASK_EV=development
+export FLASK_APP=hello.py
+source virt/Scripts/activate
+
+How To Use Python On A Web Page With Jinja2 - Flask Fridays #2
+https://www.youtube.com/watch?v=4yaG-jFfePc
+references: https://jinja.palletsprojects.com/en/3.0.x/
+
+Custom Error Pages and Version Control - Flask Fridays #3
+https://www.youtube.com/watch?v=3O4ZmH5aolg
+
+
+
