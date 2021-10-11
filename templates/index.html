@@ -1,22 +1,25 @@
-<h1>Hello World!</h1>
+{% extends 'base.html'  %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}
 
-<p> This is my first webpage!!! </p>
+{% block content   %}
 
-<p> My name is {{ first_name }}  </p>
+    <h1>Hello World!</h1>
+    <br/>
+    <img src="{{ url_for('static', filename='images/earth.jpg')}}" width=1100>
+    <br/><br/>    
+    <p class="text-primary"> <strong>My name is {{ first_name }} </strong>  </p>
+        
+    <h3 class="text-warning">Favorite Pizza: </h3>
+    {% for topping in favorite_pizza %}
+          
+             <ul>
+           <li  class="text-success" > <p class="text-danger"> <strong>{{ topping }} <strong></p></li> 
+             </ul>
+          
+    {% endfor  %}
+    
+    <br/>
+   
 
-<p> {{ stuff|title}} </p>
 
-<h3>Favorite Pizza: </h3>
-{% for topping in favorite_pizza %}
-
-     {% if topping == 41 %}
-            {{ topping + 100 }} <br/>
-
-        {% else  %}
-         {{ topping }}</br>
-       {% endif %} 
-
-{% endfor  %}
-
-<br/><br/>
-{{ favorite_pizza.0|reverse }}
+{% endblock %}

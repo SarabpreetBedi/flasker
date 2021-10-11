@@ -1,3 +1,10 @@
-<h1>Hello Name {{user_name|upper }} </h1>
+{% extends 'base.html'  %}
+{% block content   %}
+
+    <h1>Hello {{user_name|title }} </h1>
+
+{% endblock %}
+
+
 
 

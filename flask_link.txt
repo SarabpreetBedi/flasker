@@ -3,8 +3,8 @@ Flask Fridays #1
 virtual installed cmd
  python -m venv virt
  source virt/Scripts/activate
-export FLASK_EV=development
-export FLASK_APP=hello.py
+export set FLASK_EV=development
+export set FLASK_APP=hello.py
 source virt/Scripts/activate
 
 How To Use Python On A Web Page With Jinja2 - Flask Fridays #2
@@ -13,6 +13,113 @@ references: https://jinja.palletsprojects.com/en/3.0.x/
 
 Custom Error Pages and Version Control - Flask Fridays #3
 https://www.youtube.com/watch?v=3O4ZmH5aolg
+
+Setting up Git for the first time on a new project is fairly simple, you just need to enter these five commands into your terminal. 
+Be sure to be sitting in the directory where your project is located!
+
+You only need to do this once, right when you start your new project. If you create a completely new project, you’ll have to go through these commands again. 
+But only once per project…
+
+
+$ git config --global user.name "Your Name"
+$ git config --global user.email "you@youraddress.com"
+$ git config --global push.default matching
+$ git config --global alias.co checkout
+$ git init
+
+https://www.youtube.com/watch?v=y62Dvo2Ml7o
+Templates, Bootstrap Navbars, and Links - Flask Fridays #4
+reference https://getbootstrap.com/
+
+Web Forms With WTF! - Flask Fridays #5
+https://www.youtube.com/watch?v=GbJPqu0ff9A
+
+How To Use Messages With Flask - Flask Fridays #6
+Flask Fridays #6
+
+How to Use CSS Javascript and Images With Flask Static Files - Flask Fridays #7
+Flask Fridays #7
+
+How to Use Databases With SQLAlchemy - Flask Fridays #8
+https://www.youtube.com/watch?v=Q2QmST-cSwc
+
+How To Use MySQL Database With Flask - Flask Fridays #9
+https://www.youtube.com/watch?v=hQl2wyJvK5k
+
+How To Update A Record In The Database - Flask Fridays #10
+https://www.youtube.com/watch?v=Wicjkn5_nIQ
+
+How To Migrate Database With Flask - Flask Fridays #11
+https://www.youtube.com/watch?v=ca-Vj6kwK7M
+
+Delete Database Records With Flask - Flask Fridays #12
+https://www.youtube.com/watch?v=7jKsHOZk-IE
+
+Hashing Passwords With Werkzeug - Flask Fridays #13
+https://www.youtube.com/watch?v=8ebIEefhBpM
+
+Using Hashed Passwords For Registration - Flask Fridays #14
+https://www.youtube.com/watch?v=QCf9Bz2nydo
+
+Comparing Hashed Passwords To Plaintext Passwords - Flask Fridays #15
+Flask Fridays #15
+https://www.youtube.com/watch?v=FYsPj40aQoc
+
+How To Return JSON With Flask For an API - Flask Fridays #16
+https://www.youtube.com/watch?v=Up5Gm_Ls2oQ
+
+Add A Blog Post Model and Form - Flask Fridays #17
+https://www.youtube.com/watch?v=1RmU8lderG8
+
+Show Blog Posts Page - Flask Fridays #18
+https://www.youtube.com/watch?v=BQu9FBf6p7I
+
+Individual Blog Post Pages - Flask Fridays #19
+https://www.youtube.com/watch?v=HsqoCbswnQo
+
+Edit Blog Posts - Flask Fridays #20
+https://www.youtube.com/watch?v=N4Nz0cYuCnc
+
+Delete Blog Posts - Flask Fridays #21
+https://www.youtube.com/watch?v=KMvh8MS1ASQ
+
+User Login with Flask_Login - Flask Fridays #22
+https://www.youtube.com/watch?v=bxyaJ8w_wak
+https://flask-login.readthedocs.io/en/latest/
+
+Create A User Dashboard - Flask Fridays #23
+https://www.youtube.com/watch?v=o0r_4zxz9z8
+
+Two Ways To Lock Down Your Flask App - Flask Fridays #24
+https://www.youtube.com/watch?v=1xRppAbal2E
+
+Update User Profile From Dashboard - Flask Fridays #25
+https://www.youtube.com/watch?v=o6YjyOt2Zhc
+
+Clean Up Our Flask Code! - Flask Fridays #26
+https://www.youtube.com/watch?v=4uU_uhg-8gM
+
+Update Correct User - Flask Fridays #27 not worked
+https://www.youtube.com/watch?v=6hxc-FSlTwQ
+
+Create One To Many Database Relationship - Flask Fridays #28
+https://www.youtube.com/watch?v=mwjrtntk0PE
+
+Only Allow Correct User To Delete Posts - Flask Fridays #29
+https://www.youtube.com/watch?v=ohMjB8tRANM
+
+Only Allow Correct User To Edit Posts - Flask Fridays #30
+https://www.youtube.com/watch?v=TddK6Uoa9dE
+
+
+
+
+
+
+
+
+
+
 
 
 
