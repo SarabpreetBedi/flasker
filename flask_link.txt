@@ -112,7 +112,8 @@ Only Allow Correct User To Edit Posts - Flask Fridays #30
 https://www.youtube.com/watch?v=TddK6Uoa9dE
 
 
-
+Publich flask website on heroku 
+https://sarabpreetbediflaskweb.herokuapp.com/ 
 
 
 
